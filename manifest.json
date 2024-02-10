@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Daily Quote",
+    "version": "1.0",
+    "description": "Displays a random quote daily",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Daily Quote
+    </title>
+
+    <style>
+        body {
+            font-family: consolas, "Courier New", monospace;
+            color: #ffffff;
+            background-color: rgb(4, 4, 36);
+        }
+
+
+        main {
+            width: 350px;
+            padding: 20px;
+            position: relative;
+        }
+
+        main::after {
+            content: "\201D";
+            opacity: 0.1;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            font-size: 200px;
+            font-weight: bolder;
+        }
+
+        q {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <q id="daily_quote">
+            Loading...
+        </q>
+    </main>
+
+    <script src="./script.js"></script>
+
+
+    </script>
+</body>
+
+</html>
